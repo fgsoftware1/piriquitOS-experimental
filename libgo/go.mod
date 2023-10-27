@@ -1,3 +1,3 @@
-module github.com/fgsoftware1/piriquitOS-experimental/libgo
+module libgo
 
 go 1.21.3
