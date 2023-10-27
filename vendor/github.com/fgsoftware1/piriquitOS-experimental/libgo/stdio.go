@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	c "github.com/fgsoftware1/piriquitOS-experimental/utils"
+	"github.com/fgsoftware1/piriquitOS-experimental/utils"
 )
 
 // Printf formats and prints the specified string to standard output.
@@ -17,8 +17,8 @@ import (
 // arguments. They will be used to replace the verbs in the format string.
 //
 // This function does not return anything.
-func Printf(fgColor, bgColor, format string, args ...interface{}) {
-    if _, err := fmt.Fprintf(os.Stdout, "%s%s%s%s\n", bgColor, fgColor, fmt.Sprintf(format, args...), c.Reset); err != nil {
-        log.Println("Error printing to standard output:", err)
-    }
+func Printf(color, format string, args ...interface{}) {
+	if _, err := fmt.Fprintf(os.Stdout, "%s%s%s\n", color, fmt.Sprintf(format, args...), Reset); err != nil {
+		log.Println("Error printing to standard output:", err)
+	}
 }
