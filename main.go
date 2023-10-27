@@ -1,9 +1,8 @@
 package main
 
 import (
-	"github.com/fgsoftware1/piriquitOS-experimental/libgo"
+	"github.com/fgsoftware1/piriquitOS-experimental/libgo/stdio"
 )
 
 func main() {
-	stdio.printf("Hello, World!\n");
 }
