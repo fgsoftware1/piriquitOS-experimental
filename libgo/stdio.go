@@ -1,4 +1,4 @@
-package libgo
+package stdio
 
 import (
 	"fmt"

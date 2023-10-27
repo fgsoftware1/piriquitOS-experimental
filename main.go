@@ -1,7 +1,7 @@
 package main
 
 import (
-	"libgo"
+	"github.com/fgsoftware1/piriquitOS-experimental"
 )
 
 func main() {
