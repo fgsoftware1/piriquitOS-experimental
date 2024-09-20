@@ -1,7 +1,8 @@
 # github.com/fgsoftware1/piriquitOS-experimental/libgo v0.0.0-20231027210256-bdad6d563849 => ./libgo
-## explicit; go 1.21.3
+## explicit
 github.com/fgsoftware1/piriquitOS-experimental/libgo
-# github.com/fgsoftware1/piriquitOS-experimental/utils v0.0.0-20231027223338-7b231ace838a
-## explicit; go 1.21.3
+# github.com/fgsoftware1/piriquitOS-experimental/utils v0.0.0-20231027223338-7b231ace838a => ./utils
+## explicit
 github.com/fgsoftware1/piriquitOS-experimental/utils
 # github.com/fgsoftware1/piriquitOS-experimental/libgo => ./libgo
+# github.com/fgsoftware1/piriquitOS-experimental/utils => ./utils
