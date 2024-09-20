@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"log"
 	"os"
+
+	"github.com/fgsoftware1/piriquitOS-experimental/utils"
 )
 
 func Printf(format string, args ...interface{}) (int, error) {
@@ -16,7 +18,7 @@ func Printf(format string, args ...interface{}) (int, error) {
 }
 
 func Vprintf(fgColor, bgColor, format string, args []interface{}) (int, error) {
-	coloredFormat := fmt.Sprintf("%s%s%s%s", bgColor, fgColor, format, c.Reset)
+	coloredFormat := fmt.Sprintf("%s%s%s%s", bgColor, fgColor, format, color.Reset)
 	n, err := fmt.Fprintf(os.Stdout, coloredFormat, args...)
 	if err != nil {
 		log.Println("Error printing to standard output:", err)
