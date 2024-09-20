@@ -1,4 +1,6 @@
 {
 	"editor.formatOnSave": true,
-	"explorer.compactFolders": false
+	"explorer.compactFolders": false,
+	"go.useLanguageServer": true,
+	"go.autocompleteUnimportedPackages": true
 }
